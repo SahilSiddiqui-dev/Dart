@@ -1,0 +1,6 @@
+import 'person.dart';
+class Student extends person {
+    int? marks;
+    String? city;
+    Student(String name, int age, this.marks, this.city): super(name, age);
+}
